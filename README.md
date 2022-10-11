@@ -1,4 +1,4 @@
-<h1>Parallel Programming Assignment: Password Bruteforce</h1>
+<h1>Parallel Programming: Word Scramble</h1>
 <h2>Intro</h2>
 <div>
 	<p>Uses Message Passing Interface (mpi) library for parallelism optimization. Process 0 gets a single word from the user and encrypts the word by scrambling it. Once encrypted the other processes will attempt to decrypt the word by guessing it. All guesses are verified through the os dictionary file. The number of processes in the program are determined at execution time by the user.</p>
