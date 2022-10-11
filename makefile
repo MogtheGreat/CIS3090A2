@@ -21,6 +21,9 @@ run4:
 memory:
 	valgrind --leak-check=yes --track-origins=yes ./a2
 
+clean:
+	rm -f *.o a2
+
 save:
 	tar czf CIS3090A2moranski.tar.gz a2.c encryptDecrypt.h encryptDecrypt.c makefile README.txt
 
