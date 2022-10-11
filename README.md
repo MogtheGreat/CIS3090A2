@@ -7,7 +7,7 @@
 <div>
 	<ul>
 		<li>OS: Unix (Ubuntu preferred)</li>
-		<li>c compiler (gcc preffered)</li>
+		<li>c compiler (gcc prefered)</li>
 		<li>mpi (sudo apt install mpich)</li>
 	</ul>
 </div>
